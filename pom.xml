@@ -163,7 +163,7 @@
 
         <!-- Test dependencies -->
         <version.org.jboss.arquillian>1.1.11.Final</version.org.jboss.arquillian>
-        <version.org.testng>6.8</version.org.testng>
+        <version.org.testng>7.3.0</version.org.testng>
         <!-- it must be the exact same version than the one used in the Bean Validation TCK -->
         <version.org.assertj.assertj-core>3.8.0</version.org.assertj.assertj-core>
         <version.junit>4.12</version.junit>
@@ -270,14 +270,14 @@
         <forbiddenapis.jdk.target>10</forbiddenapis.jdk.target>
 
         <!-- Set empty default values to avoid Maven leaving property references (${...}) when it doesn't find a value -->
-        <surefire.jvm.args.additional></surefire.jvm.args.additional>
-        <surefire.jvm.args.illegal-access></surefire.jvm.args.illegal-access>
-        <surefire.jvm.args.add-opens></surefire.jvm.args.add-opens>
+        <surefire.jvm.args.additional/>
+        <surefire.jvm.args.illegal-access/>
+        <surefire.jvm.args.add-opens/>
         <surefire.jvm.args>${surefire.jvm.args.additional} ${surefire.jvm.args.add-opens} ${surefire.jvm.args.illegal-access}</surefire.jvm.args>
         <failsafe.jvm.args>${surefire.jvm.args.additional} ${surefire.jvm.args.add-opens} ${surefire.jvm.args.illegal-access}</failsafe.jvm.args>
 
-        <arquillian.wildfly.jvm.args.add-opens></arquillian.wildfly.jvm.args.add-opens>
-        <arquillian.wildfly.jvm.args.add-modules></arquillian.wildfly.jvm.args.add-modules>
+        <arquillian.wildfly.jvm.args.add-opens/>
+        <arquillian.wildfly.jvm.args.add-modules/>
         <arquillian.wildfly.jvm.args>${arquillian.wildfly.jvm.args.add-opens} ${arquillian.wildfly.jvm.args.add-modules}</arquillian.wildfly.jvm.args>
 
         <!-- JDK version required for the build -->
@@ -1019,7 +1019,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -1038,7 +1038,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -1057,7 +1057,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -1070,7 +1070,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -1085,7 +1085,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
@@ -1184,7 +1184,7 @@
                                 </goals>
                                 <configuration>
                                     <rules>
-                                        <requireReleaseDeps />
+                                        <requireReleaseDeps/>
                                     </rules>
                                     <fail>true</fail>
                                 </configuration>
