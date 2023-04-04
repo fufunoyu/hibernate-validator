@@ -2,4 +2,4 @@ source 'https://rubygems.org'
 
 gem 'guard'
 gem 'guard-shell'
-gem 'asciidoctor'
+gem 'asciidoctor', '>= 1.5.8'
